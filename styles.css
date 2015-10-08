@@ -1,6 +1,126 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+/* unvisited link */
+a:link {
+	text-decoration: none;
+	font-weight: normal;
+    color: #218574;
+}
+
+/* visited link */
+a:visited {
+    color: #62b7aa;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #218574;
+}
+
+
+body {
+	
+	background-color: #e5e3d2;
+	background-color: rgba(229, 227, 210, 1);
+	font-family: 'Noto Serif', serif;
+	padding: 50px 60px;
+	line-height: 1.8em;
+	font-size: 1.25em;
+	color: #333;
+}
+
 h1 {
-    color: green;
+	font-size: 6em;
+	line-height: .9em;
+	text-shadow: 2px 4px #999;
+}
+
+h1 small {
+	font-size: 0.4em;
+	font-style: normal;
+}
+
+h4 {
+	font-family: 'Noto Serif', serif;
+	line-height: 3em;
+	font-size: 1.3em;
+}
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul li {
+	padding-left: 0;	
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    border-top: thin solid #bebba6;
+}
+
+.poem {
+	border-left: thin solid #bebba6;
+	padding-left: 4em;
+}
+
+#content {
+	margin-top: 5em;
+	width: 65%;
+	float: right;
+}
+
+header {
+	margin: auto;
+    width: 60%;	
+}
+
+.page-footer {
+	font-family: 'Noto Sans', san-serif;
+	display: inline-block;
+	margin-left: 20%;
+	margin-right: 20%;
+    width: 60%;
+	padding-top: 10em;
+	font-size: 0.6em;
+}	
+
+aside {
+	font-family: 'Noto Sans', san-serif;
+	font-weight: bold;
+	margin-top: 5em;
+	width: 25%;
+	float: left;
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+.content-footer {
+	font-family: 'Noto Sans', san-serif;
+	font-size: 0.8em;
+}
+
+.more-info img {
+	width: 40%;
+	border: 1px solid #999;
+}
+
+.social-links li {
+	float: left;
+	padding-right: 15px;
+	  
+}
+
+.citation {
+	display: inline-block;
+	clear: both;
 }
